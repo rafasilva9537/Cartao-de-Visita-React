@@ -1,13 +1,36 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/Cartao-de-Visita-React/card/src/index.css">
+  <title>Vite + React + TS</title>
+</head>
+
+<body>
+  <main>
+    <div class="cartaoContainer">
+      <section>
+        <h1 class="nomeUsuario">Fernando Gomes de Souza</h1>
+        <h3 class="tituloTrabalho">Cientista de dados</h3>
+        <a href="mailto:fernandogomes@gmail.com">fernandogomes@gmail.com</a>
+        <a href="https://br.linkedin.com/?trk=guest_homepage-basic_nav-header-logo">Linkedin.com/in/FernandoGomes123</a>
+        <h4 class="TextoBotao">Veja as minhas habilidades clicando no botão abaixo!</h4>
+      </section>
+      <img src="/Cartao-de-Visita-React/card/src/assets/img.jpg">
+    </div>
+
+
+
+    <div class="botaoContainer">
+      <a href="" class="botaoMaisInfo">Minhas habilidades</a>
+    </div>
+  </main>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
